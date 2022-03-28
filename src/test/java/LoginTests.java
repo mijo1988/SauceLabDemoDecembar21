@@ -32,6 +32,7 @@ public class LoginTests extends BaseTest{
 
     @Test
     public void loginWithInvalidUserNameANdValidPass() {
+     // redudantan step for chromeDriver
         ChromeDriver driver = openChromeDriver();
         try {
             LoginPage loginPage = new LoginPage(driver);
